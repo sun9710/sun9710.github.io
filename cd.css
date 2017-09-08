@@ -1,0 +1,97 @@
+*{
+				margin:0px;
+				padding:0px;
+}
+ html{
+ 	font-size:62.5%;
+ 	color: #222;
+ }
+  ul{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ li{
+ 	list-style: none;
+ }
+  a{
+ 	/*color: #666;*/
+ 	text-decoration: none;
+ }
+ a:hover, a:active{
+ 	color: #0ae;
+ 	text-decoration:underline;
+ }
+#banner{
+	    margin: 0px auto;
+		width:100%;
+		height:5rem;
+		background:red;
+		border-radius: 3%/50%;
+}
+#contain{
+		width: 80%;
+		height: 5rem;
+		margin: 0px auto;
+}
+
+#bans{
+		width:100%;
+		height:5rem;
+		margin:0px auto;
+		background-color: gray;
+}
+#bans li{
+	    width:24%;
+		list-style: none;
+		float: left;	
+		text-align: center;
+}
+#bans li a{
+	line-height: 4.5rem;
+		text-decoration: none;
+		font-size: 3rem;
+}
+#bar{
+	width:68%;
+	margin:0px auto;
+	/*background:#aquamarine;*/
+	height:3px;
+	border-radius:20px;
+}
+#show{
+	width:70%;
+	height:1300px;
+	background:yellow;
+	margin:0px auto;
+	border-radius: 20px;
+}
+#fanhui{
+	position:fixed;
+	width:4rem;
+	height: 15rem;
+	/*margin-top: 90%;*/
+	top: 60%;
+	/*margin-left: ;*/
+	left: 87%;
+	background: black;
+	text-align: center;
+}
+#fanhui a{
+    display: block;
+    width:4rem;
+	height: 15rem;
+	font-size: 3rem;
+}
+#fanhui a span{
+	
+}
+#footer{
+	width:70%;
+	margin:0px auto;
+	height: 100px;
+	border-radius: 20px;
+}
+#footer p{
+	padding: 50px;
+}
