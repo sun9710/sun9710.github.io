@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>锐志音乐</title>
+<!-- <link rel="stylesheet" type="text/css" href="css/playerControl.css"> -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript" src="js/lyrics.js"></script>
+
+<script src="js/playerControl.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="contanier" id="contanier">
+    <div class="header" id="header">
+    	<p>锐志音乐</p>
+    </div>
+    <div class="playList">
+    	<div class="playListTitle">
+    		<span>我的音乐</span>
+    	</div>
+    	<ul id="playListUL">
+    		<li><a href="#" title="带你去旅行-校长.mp3" class="active">带你去旅行 - 校长</a></li>
+    		<li><a href="#" title="逆流成河-金南玲.mp3">逆流成河 - 金南玲</a></li>
+    		<li><a href="#" title="在人间-王建房.mp3">在人间 - 王建房</a></li>
+    		<li><a href="#" title="尽头-赵方婧.mp3">尽头 - 赵方婧</a></li>
+    	</ul>
+    </div>
+    <div id="music_introduce">
+        <p id="musicName">带你去旅行</p>
+        <p id="musicAuthor">校长</p>
+        <div id="music_img">
+            <img src="img/校长.jpg" alt="歌手图片">
+        </div>
+    </div>
+	<div class="geciDIV" id="geciDIV">
+    <ul id="geciUL" ><!-- style=" margin-top:0px; " -->
+    </ul>
+    </div>
+
+
+<!-- 音乐播放器的控制部分 -->
+ <audio src="img/带你去旅行-校长.mp3" controls="controls" id="audio">你的浏览器不支持播放</audio>
+    <div class="music_controlDIV">
+        <div class="music_control" id="music_control">
+           
+            <div id="playControl">
+                <a href="#" id="prev"><img src="img/prev.png"></a>
+                <a href="#" id="playORstop" title=""><img src="img/play.png"></a>
+                <a href="#" id="next"><img src="img/next.png"></a>
+            </div>
+            <div id="progressControl">
+                <label id="nowTime"></label>
+                <div id="music_progress">
+                    <div id="music_progressRate">
+                    </div>
+                    <a href="#" class="Icon"  id="music_progress_Icon" draggable="true">
+                        <img src="img/progressTop.png" draggable="true">
+                    </a>
+                </div>
+                <label id="allTime"></label>
+            </div>
+            <div id="volumeControl">
+                <a href="#" id="IFsound" title="静音" class="Icon Icon1">
+                    <img src="img/sound.png">
+                </a>
+                <div id="volume_progress">
+                    <div id="volume_progressRate">
+                    </div>
+                    <a href="#" class="Icon" id="volume_progress_Icon">
+                        <img src="img/progressTop.png">
+                    </a>
+                </div>
+            </div>
+        </div><!-- music_control -->
+    </div><!-- music_controlDIV -->
+</div><!-- container -->
+
+
+</body>
+</html>
